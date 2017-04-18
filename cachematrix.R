@@ -23,6 +23,8 @@ makeCacheMatrix <- function(x = matrix()) {
 ## cacheSolve function computes and return the inverse of the matrix returned by makeCacheMatrix. It also tells whether a 
 ## matrix can be convertible or not
 
+library(matrixcalc)
+
 cacheSolve <- function(x, ...) {
   i <- x$getinverse()
   if(!is.null(i)) {
