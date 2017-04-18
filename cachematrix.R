@@ -5,6 +5,7 @@
 ## matrix will be returned else message "Matrix can not be inverted" will be returned
 
 ## makeCacheMatrix function get and set the matrix whose inverse is to be calculated and return all the values as a list
+## "i" is the inverted matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
